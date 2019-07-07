@@ -1,0 +1,135 @@
+/* "Event" content-type layout adjustments 
+-------------------------------------------------------------*/
+	h1.event-title {
+	  border-bottom: solid 1px #e6e4de;
+	  font-weight: bold;
+	  margin-top: 0px;
+	  margin-bottom: 5px;
+	}
+
+	h1.event-title a:visited {
+	  color: black;
+	}
+
+	.field-name-title, 
+	.field-name-field-event-date {
+	  padding: 0px;
+	}
+
+	.field-name-field-event-date {
+	  padding-top: 5px;
+	}
+
+	.node {
+	  padding-bottom: 35px;
+	}
+
+	.field-type-image img {
+	  border: solid 1px #e6e4de;
+	  padding: 0.5em;
+	}
+
+	.front .date-display-single,
+	.front .date-display-start,
+	.front .date-display-end,
+	.front .field-name-field-ds-event-location,
+	.node-type-event .date-display-single,
+	.node-type-event .date-display-start,
+	.node-type-event .date-display-end,
+	.node-type-event .field-name-field-ds-event-location {
+	  font-weight: bold;
+	}
+
+
+/* "Event info" and "webform" content-type layout adjustment 
+-------------------------------------------------------------*/
+	.field-name-field-event-reference a, 
+	.field-name-field-event-reference-webform a {
+	  font-size: 1.4em;
+	  font-weight: bold;
+	  padding-bottom: 10px;
+	}
+
+	.field-name-field-event-reference .field-item,
+	.field-name-field-event-reference-webform .field-item {
+	  padding-bottom: 10px;
+	}
+
+	.node-type-event-info h1#page-title,
+	.node-type-webform h1#page-title {
+	  text-transform: uppercase;
+	}
+
+	.webform-submission-info legend {
+		left: 300px;
+	}
+
+
+/* Event Navigation 
+-------------------------------------------------------------*/
+	#block-book-navigation ul {
+	  list-style-position: inside;
+	}
+
+	#block-book-navigation ul li {
+	  padding: 10px 0 10px 0px;
+	  border-bottom: 1px dotted #C0C0C0;
+	}
+
+	#block-book-navigation .block-title {
+	  background: #efefef;
+	  padding: 10px;
+	  text-transform: uppercase;
+	  font-size: 1.2em;
+	}
+
+	#block-book-navigation li {
+	  text-transform: uppercase;
+	}
+
+	#block-book-navigation li a.active {
+	  font-weight: bold;
+	}
+
+	#block-book-navigation li.leaf a:hover {
+	  font-weight: bold;
+	}
+
+	ul li.leaf {
+	  list-style-image: none;
+	  list-style-type: none;
+	}
+
+
+/* Footer 
+-------------------------------------------------------------*/
+	#page > footer .block .block-inner {
+	  padding: 0px;
+	}
+
+	.region-footer .block-content {
+	  font-size: 1em;
+	  font-weight: bold;
+	  color: gray;
+	  text-align: center;
+	}
+
+	.region-footer p {
+	  margin: 0px;
+	}
+
+
+/* Views 
+-------------------------------------------------------------*/
+	.plist-field {
+		text-transform: uppercase;
+	}
+
+
+/* Database Registration / Registrar View 
+-------------------------------------------------------------*/
+	#block-views-registrar-view-block .block-title {
+	  background: lightyellow;
+	  padding: 10px;
+	  margin-top: 10px;
+	}
